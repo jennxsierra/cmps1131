@@ -1,14 +1,7 @@
 cmake_minimum_required(VERSION 3.29)
-project(cmps1232)
+project(cmps1131)
 
 set(CMAKE_CXX_STANDARD 20)
-
-# Function to add executables for all main.cpp files in subdirectories
-cmake_minimum_required(VERSION 3.29)
-project(cmps1232)
-
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Function to add executables for all cpp files with main functions
 function(add_subdir_executables base_dir)
